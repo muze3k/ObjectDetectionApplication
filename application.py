@@ -146,7 +146,7 @@ def stopdetection():
 	button1.configure(state="normal")
 	button2.configure(state="normal")
 	center_points.clear()
-	camcenter_points/clear()
+	camcenter_points.clear()
 
 
 button1 = ctk.CTkButton(master=app, text="Detection on video", command=partial(startdetecting, 1))
